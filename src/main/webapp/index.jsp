@@ -9,6 +9,8 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <h4>Witajcie</h4>
         <p><a href="message">See a message from servlet</a></p>
+        <p><a href="message1">zobacz tu</a></p>
     </body>
 </html>

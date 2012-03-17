@@ -9,7 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = "/message")
+@WebServlet(urlPatterns = "/message1")
+//@WebServlet(urlPatterns = "/message1")
 public class SomeServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
@@ -22,6 +23,9 @@ public class SomeServlet extends HttpServlet {
 
 		PrintWriter out = response.getWriter();
 		out.print("<html><body><h2>Hello from Servlet (ver. 3.0)</h2></body></html>");
+		out.print("<html><body><h3>A to juz moj tekst</h3></body></html>");
 		out.close();
 	}
 }
+
+
